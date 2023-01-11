@@ -72,6 +72,7 @@ export default {
         }).then((response) => {
           this.news = response.data.articles;
         })
+      }
     },
     mounted(){
       this.getNews();
